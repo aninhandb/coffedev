@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border;
+}
+ #navbar {
+
+    display: flex;
+    gap:100px;
+    width: 100%;
+    justify-content: center;
+    list-style: none;
+    margin: 100px;
+ }
+ .content img {
+    width: 500px;
+ }
+ .redes img { display: block;
+    width: 40px;
+ }
+ .redes img { display: inline-block;
+
+ }
+.content {
+    display: flex;
+    margin: 100px;
+}
+.content-right { margin-top: 200px;
+
+}
+.projeto1 {
+    width: 300px;
+    height: 150px;
+
+}
