@@ -31,5 +31,31 @@
 .projeto1 {
     width: 300px;
     height: 150px;
+    border-radius: 20px;
+    border: 2px solid rgb(206, 206, 206);
+}
+.projeto2 { width: 300px;
+    height: 150px;
+    border-radius: 20px;
+    border: 2px solid rgb(206, 206, 206);
+
 
 }
+.projeto3 {
+    width: 300px;
+    height: 150px;
+    border-radius: 20px;
+    border: 2px solid rgb(206, 206, 206);
+
+
+}
+.projetos {
+    display: flex;
+    gap: 50px;
+    margin-top: 100px;
+    margin-bottom: 200px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+
