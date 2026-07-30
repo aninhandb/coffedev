@@ -1,4 +1,4 @@
-:root {
+root {
     --main-color: #d3ad7f;
     --border: 0.1rem solid rgb (0,0,0)
     font- size: 10px;
@@ -94,7 +94,7 @@ section {
 }
 .content p {
     color: #000;
-    font-size: 40px;
+    font-size: 20px;
     line-height: 30px;
     max-width: 600px;
 
@@ -115,8 +115,40 @@ section {
 .about .row .content {
     padding: 100px;
 }
-.what{
-    font-size: larger;
-    font-style: normal;
-    font-weight: 700;
+.textcontent2 p {
+    font-size: 20px;
+}
+.textcontent2 .what { 
+    font-size: 30px;
+}
+    
+.mobile_menu {
+    display: none;
+}
+  .about .menu .box-container {display: grid;
+    /* Cria colunas de tamanho mínimo 250px que se ajustam sozinhas */
+    grid-template-columns: repeat(auto-fit, minmax(350px, 2fr)); 
+    gap: 20px; /* Espaço entre os produtos */
+    justify-content: center;
+
+}
+.box-container1 { display: grid;
+    /* Cria colunas de tamanho mínimo 250px que se ajustam sozinhas */
+    grid-template-columns: repeat(auto-fit, minmax(350px, 2fr)); 
+    gap: 20px; /* Espaço entre os produtos */
+    justify-content: center;
+
+}
+.box-container1 .box h4 {
+    font-size: 20px;
+}
+.box-container1 .box  p {
+    font-size: 15px;
+}
+.box-container1 .box img {
+    border-radius: 50px;
+}
+
+.box1 {
+    display
 }

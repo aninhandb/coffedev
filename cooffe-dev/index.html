@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cafeteria</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/styles/header.css">
+    <link rel="stylesheet" href="/styles/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -20,14 +21,25 @@
                 <img src="/img/logo.png" alt="logo">
             </a>
             <nav class="navbar">
-                <a href="#home"> Home</a>
-                <a href="#sobre"> Sobre </a>
-                <a href="#menu"> Menu </a>
-                <a href="#review"> Avaliações</a>
-                <a href="#addres"> Endereço</a>
-
-
+                <ul>
+                    <li><a href="#home"> Home</a></li>
+                    <li><a href="#sobre"> Sobre </a></li>
+                    <li><a href="#menu"> Menu </a></li>
+                    <li><a href="#review"> Avaliações</a></li>
+                    <li><a href="#addres"> Endereço</a></li>
+                </ul>
             </nav>
+            <div class="mobile_menu">
+                <ul>
+                    <li><a href="#home"> Home</a></li>
+                    <li><a href="#sobre"> Sobre </a></li>
+                    <li><a href="#menu"> Menu </a></li>
+                    <li><a href="#review"> Avaliações</a></li>
+                    <li><a href="#addres"> Endereço</a></li>
+                </ul>
+            </div>
+
+
             <hr>
             <div class="icons">
                 <img width="30" height="30"
@@ -35,38 +47,128 @@
                     alt="search--v2">
                 <img width="30" height="30" src="https://img.icons8.com/pastel-glyph/64/shopping-trolley--v2.png"
                     alt="shopping-trolley--v2" />
-            </div>
+                </div>
+                <button id="mobile">
+                   <img width="30" height="30" src="https://img.icons8.com/material-rounded/24/menu--v1.png" alt="menu--v1"/>
+                </button>
         </section>
-
     </header>
+    <hr>
     <div class="home-container"> </div>
     <section id="home">
         <div class="content">
+
             <h3>
-                The best cooffe around. </h3>
+                The best coffee around. </h3>
 
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium ad illum amet laboriosam, quo, nemo
                 facere repudiandae illo animi, soluta debitis veritatis unde eaque facilis repellendus fuga. Mollitia,
                 velit aut!</p>
-            <a href="#" class="btn"> TAKE IT NOW</a>
+            <a href="#" class="btn"> ORDER NOW</a>
+
 
         </div>
 
     </section>
-    </section class="about" id="about">
-    <h2 class="title"> About<span> Us </span></h2>
-    <div class=" row ">
-    <div class="conteiner-img">
-        <img src="/img/main2.jpg" alt="sobre-nos">
-    </div>
-    <div class="content">
-        <h2 class="what">What makes us special  </h2>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum iusto reiciendis maiores est minus corporis. Vel beatae debitis molestiae inventore. Dicta mollitia laboriosam tempora optio voluptatum atque ab assumenda rem?</p>
-        <a href="#" class="btn">Learn more </a>
-    </div>
-    </div>
+    <section class="about" id="about">
+        <h2 class="title"> About<span> Us </span></h2>
+        <div class=" row ">
+            <div class="conteiner-img">
 
-    <section>
+            </div>
+            <div class="content2">
+                <img height="500" width="500" src="/img/main2.jpg" alt="sobre-nos">
+                <div class="textcontent2">
+                    <h2 class="what">What makes us special </h2>
+                    <div class="botão">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.<br> Harum iusto reiciendis maiores est
+                            minus corporis. <br> Vel beatae debitis molestiae inventore. Dicta mollitia laboriosam <br>tempora
+                            optio voluptatum atque ab assumenda rem?</p>
+                    </div>
+                    <a href="#" class="btn">Learn more </a>
+                </div>
+            </div>
+        </div>
+
+        <section class=" menu" id=" menu">
+            <h2 class="title"> Menu</h2>
+            <div class="box-container">
+                <div class="box">
+                    <img src="/img/menu-1.png" alt="">
+                    <h4>Café Coado</h4>
+                    <div class="price"> R$ 15,00 <snap>R$ 20,99</snap>
+                    </div>
+                    <a class="btn"> Adicione no Carrinho </a>
+                </div>
+                <div class="box">
+                    <img src="/img/menu-2.png" alt="">
+                    <h4>Café Coado</h4>
+                    <div class="price"> R$ 15,00<snap>R$ 20,99</snap>
+                    </div>
+                    <a class="btn"> Adicione no Carrinho </a>
+                </div>
+                <div class="box">
+                    <img src="/img/menu-3.png" alt="">
+                    <h4>Café Coado</h4>
+                    <div class="price"> R$ 15,00<snap>R$ 20,99</snap>
+                    </div>
+                    <a class="btn"> Adicione no Carrinho </a>
+                </div>
+                <div class="box">
+                    <img src="/img/menu-4.png" alt="">
+                    <h4>Café Coado</h4>
+                    <div class="price"> R$ 15,00<snap>R$ 20,99</snap>
+                    </div>
+                    <a class="btn"> Adicione no Carrinho </a>
+                </div>
+
+            </div>
+
+
+        </section>
+        <section class="review" id="review ">
+
+            <h2 class="title">Nossos <snap>Clientes</snap>
+            </h2>
+            <div class="box-container1">
+                <div class=" box">
+                    <img width="25px" height="25px" src="/img/comentario" alt="" comentario>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem modi officiis vero deserunt
+                        debitis.<br> Nemo modi voluptatum labore maiores eum, cumque qui fuga cupiditate error
+                        necessitatibus, velit ut. Numquam, at!</p>
+                    <img width="100px" src="/img/pic-1.png" alt="comentario">
+                    <h4>João</h4>
+                </div>
+                <div class=" box">
+                    <img width="25px" height="25px" src="/img/comentario" alt="" comentario>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem modi officiis vero deserunt
+                        debitis.<br> Nemo modi voluptatum labore maiores eum, cumque qui fuga cupiditate error
+                        necessitatibus, velit ut. Numquam, at!</p>
+                    <img width="100px" src="/img/pic-2.png" alt="comentario">
+                    <h4>Anna </h4>
+                </div>
+                <div class=" box">
+                    <img width="25px" height="25px" src="/img/comentario" alt="" comentario>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem modi officiis vero deserunt
+                        debitis.<br> Nemo modi voluptatum labore maiores eum, cumque qui fuga cupiditate error
+                        necessitatibus, velit ut. Numquam, at!</p>
+                    <img  width="100px" src="/img/pic-3.png" alt="comentario">
+                    <h4>Pedro </h4>
+                </div>
+
+            </div>
+        </section>
+        <section class="addres">
+            <h1 class="title">where are <span>we</span></h1>
+            <div class="mapa">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4532.377817894273!2d-43.94081792403089!3d-19.927212581460598!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa699e7267b1dd3%3A0x2644e1610952f9ac!2sCaf%C3%A9%20Cultura%20Bar!5e1!3m2!1spt-BR!2sbr!4v1776633433285!5m2!1spt-BR!2sbr"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+
+        </section>
 </body>
 
 </html>

@@ -1,0 +1,56 @@
+/* 1. Corrigido de "eader" para ".header" (assumindo que é uma classe) */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    /* 2. Corrigida a sintaxe da borda (estava black, 10px) */
+    border-bottom: 10px solid black; 
+    /* Dica: Adicione uma cor de fundo, senão o header fixo vai ficar transparente e o texto vai passar por trás dele misturando tudo */
+    background-color: #ffffff; 
+}
+
+hr {
+    border-color: #000;
+}
+
+.header section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+/* 3. Seleção simplificada e adicionei o cursor de "mãozinha" para o clique */
+#mobile { 
+    display: none;
+    cursor: pointer; 
+}
+
+.header .navbar ul {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    gap: 48px;
+    margin: 0; /* Zera as margens que o navegador coloca por padrão no UL */
+    padding: 0;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+    transition: 0.3s ease; /* Deixa o efeito do hover suave (clientes amam isso) */
+}
+
+.navbar a:hover {
+    color: #d3ad7f;
+    border-bottom: 4px solid #d3ad7f; /* Apliquei a mesma cor na borda */
+    padding-bottom: 5px;
+    /* DICA: Tirei o aumento de font-size aqui. Mudar o tamanho da fonte no hover faz os itens do lado "pularem" e quebra o menu. */
+}
+
+/* =========================================
+   A MÁGICA DA RESPONSIVIDADE (MOBILE)
